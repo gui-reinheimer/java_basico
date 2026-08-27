@@ -23,7 +23,7 @@ public class Maths {
         /*RAMDOM*/
 
         double ale = Math.random();
-        int n = (int) (5 + ale * (10-5));
+        int n = (int) (1 + ale * (100-1));
         System.out.println("Numero Aleatorio: " + ale);
         System.out.println("Numero Aleatorio: " + n);
     }
