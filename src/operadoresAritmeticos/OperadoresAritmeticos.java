@@ -1,3 +1,5 @@
+package operadoresAritmeticos;
+
 import java.util.Scanner;
 
 public class OperadoresAritmeticos {
@@ -9,7 +11,8 @@ public class OperadoresAritmeticos {
          *float media = (n1 + n2)/2;
          *System.out.println("media = " + media);
         */
-        System.out.print("Numerador: ");
+
+        /*System.out.print("Numerador: ");
         int n1 = input.nextInt();
         System.out.print("Denominador: ");
         int n2 = input.nextInt();
@@ -17,6 +20,10 @@ public class OperadoresAritmeticos {
         float resto = n1 % n2;
 
         System.out.println("Divisão:" + divisor);
-        System.out.println("Resto:" + resto);
+        System.out.println("Resto:" + resto);*/
+
+        int numero = 5;
+        int valor = 5 + numero++;
+        System.out.println(valor);
     }
 }
