@@ -10,7 +10,8 @@ public class CalculaIdade {
         int ano = input.nextInt();
         int anoAtual = LocalDate.now().getYear();
         int idade = anoAtual - ano;
-        String situacao = (idade >= 18)?"Maior de idade":"Menor de idade";
+        String situacao =
+                (idade >= 18)?"Maior de idade":"Menor de idade";
         System.out.println("Sua idade é: " + idade);
         System.out.print("Você é " + situacao);
     }
