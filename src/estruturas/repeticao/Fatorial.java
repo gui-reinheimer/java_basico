@@ -2,18 +2,18 @@ package estruturas.repeticao;
 
 public class Fatorial {
     public static void main(String[] args) {
-        int fatorial = 1;
-        int c = 8;
-        int n = c;
+        int numero = 8;
+        int c = 1;
+        int n = numero;
         System.out.print(n + "! = ");
-        while (c >= 1) {
-            System.out.print(c);
-            if (c > 1) {
+        while (numero >= 1) {
+            System.out.print(numero);
+            if (numero > 1) {
                 System.out.print(" * ");
             }
-            fatorial *= c;
-            c--;
+            c *= numero;
+            numero--;
         }
-        System.out.print(" = " + fatorial);
+        System.out.print(" = " + c);
     }
 }
